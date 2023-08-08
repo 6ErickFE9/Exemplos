@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Queen - Site Oficial</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    section {
+      margin-top: 20px;
+    }
+    
+    h2 {
+      color: #333;
+    }
+    
+    img {
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    audio,
+    video {
+      margin-bottom: 10px;
+    }
+    
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#imagens">Imagens</a></li>
+      <li><a href="#musicas">Músicas</a></li>
+      <li><a href="#videos">Vídeos</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Bem-vindo ao Queen - Site Oficial</h2>
+    <p>Este é o site oficial do Queen, uma das maiores bandas de rock da história.</p>
+  </section>
+
+  <section id="imagens">
+    <h2>Imagens</h2>
+    <img src="imagem1.jpg" alt="Imagem 1">
+    <img src="imagem2.jpg" alt="Imagem 2">
+    <img src="imagem3.jpg" alt="Imagem 3">
+  </section>
+
+  <section id="musicas">
+    <h2>Músicas</h2>
+    <audio controls>
+      <source src="musica1.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="musica2.mp3" type="audio/mpeg">
+    </audio>
+  </section>
+
+  <section id="videos">
+    <h2>Vídeos</h2>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/video1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/video2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </section>
+</body>
+</html>
